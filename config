@@ -1,0 +1,30 @@
+[global_config]
+  window_state = maximise
+  tab_position = hidden
+  title_transmit_bg_color = "#2ec27e"
+  inactive_color_offset = 0.706140350877193
+  title_use_system_font = False
+  title_font = JetBrains Mono NL Light 8
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#2b2a28"
+    background_darkness = 0.7
+    cursor_color = "#e6e6e6"
+    font = JetBrains Mono NL Light 10
+    foreground_color = "#c0bfbc"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#5e5c64:#f92672:#33d17a:#ff7800:#1c71d8:#dc8add:#06989a:#d3d7cf:#272822:#f92672:#a6e22e:#e5a50a:#3584e4:#c061cb:#34e2e2:#eeeeec"
+    use_system_font = False
+    background_image = /home/lexus/Изображения/wallpapers/pictures/wallpaperbetter.com_2560x1440 (14).jpg
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
